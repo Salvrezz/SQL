@@ -93,6 +93,3 @@ For educational and development use only.
 
 Scripts may vary by SQL dialect—check compatibility before using in production.
 
-License
-
-You can add a license of your choice when appropriate (MIT is commonly used).
