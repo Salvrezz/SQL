@@ -1,37 +1,35 @@
-SQL Repository — by salvrezz
+# SQL Repository — by salvrezz
 
-A structured collection of SQL scripts for multiple database systems. This repository includes schemas, queries, sample data, and reusable templates organized by database type.
-Suitable for learning, development, and long-term project use.
+A structured collection of SQL scripts for multiple database systems.  
+This repository includes schemas, queries, sample data, and reusable templates organized by database type.  
+Designed for long-term use, maintainability, and professional workflow.
 
-Table of Contents
+---
 
-Overview
+## Table of Contents
 
-Repository Structure
+1. [Overview](#overview)
+2. [Repository Structure](#repository-structure)
+3. [Contents](#contents)
+   - [MSSQL](#mssql)
+   - [PostgreSQL](#postgresql)
+   - [Templates](#templates)
+4. [Purpose](#purpose)
+5. [Project Style](#project-style)
+6. [Branding](#branding)
+7. [Notes](#notes)
 
-Contents
+---
 
-MSSQL
+## Overview
 
-PostgreSQL
+This repository serves as a centralized location for SQL development work maintained by **salvrezz**.  
+It contains organized scripts for Microsoft SQL Server, PostgreSQL, and can be expanded to support additional SQL platforms.  
+The structure is designed to be clean, consistent, and scalable.
 
-Templates
+---
 
-Purpose
-
-Project Style
-
-Branding
-
-Notes
-
-License
-
-Overview
-
-This repository serves as a centralized location for SQL work maintained by salvrezz.
-It contains organized scripts for Microsoft SQL Server, PostgreSQL, and can easily be expanded to other database systems.
-The focus is on clarity, reusability, and long-term maintainability.
+## Repository Structure
 
 Repository Structure
 /mssql/       Microsoft SQL Server scripts
@@ -40,47 +38,49 @@ Repository Structure
 /docs/        Documentation or branding assets (optional)
 
 
-You may expand the structure later (e.g., /mysql/, /sqlite/, etc.).
 
-Contents
-MSSQL
+---
 
-Directory: /mssql/
+## Contents
+
+### MSSQL
+Located in `/mssql/`  
 Includes schema definitions, stored procedures, views, triggers, and sample data.
 
-PostgreSQL
+### PostgreSQL
+Located in `/postgres/`  
+Includes setup scripts, functions, views, triggers, and data manipulation examples.
 
-Directory: /postgres/
-Includes database setup scripts, functions, views, triggers, and data manipulation files.
+### Templates
+Located in `/_templates/`  
+Contains reusable SQL components such as:
+- Table structure templates  
+- CRUD patterns  
+- Indexing examples  
 
-Templates
+---
 
-Directory: /_templates/
-Contains reusable SQL components such as table templates, CRUD patterns, and indexing examples.
-
-Purpose
+## Purpose
 
 This repository is intended to:
 
-Serve as a long-term SQL reference for salvrezz
+- Serve as a long-term SQL reference for **salvrezz**
+- Provide clean and maintainable structures for different database systems
+- Support learning, testing, and experimentation
+- Offer reusable templates to streamline future development
 
-Provide a clean and consistent structure across projects
+---
 
-Support learning, experimentation, and comparison between SQL systems
+## Project Style
 
-Offer reusable components to speed up future development
+- Minimal and professional formatting
+- Organized by SQL dialect
+- Focus on clarity and reusability
+- Simple structure suitable for expansion
 
-Project Style
+---
 
-Organized by database type
-
-Minimal and readable SQL formatting
-
-Reusable and adaptable patterns
-
-Scalable structure designed for long-term use
-
-Branding
+## Branding
 
 <p align="center">
   <img src="./docs/logo.png" width="160" alt="salvrezz SQL Logo">
