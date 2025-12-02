@@ -83,8 +83,9 @@ This repository is intended to:
 ## Branding
 
 <p align="center">
-  <img src="./docs/logo.png" width="160" alt="salvrezz SQL Logo">
+  <img src="./docs/download.png" width="160" alt="salvrezz Logo">
 </p>
+
 
 Notes
 
