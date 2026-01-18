@@ -12,7 +12,7 @@ Designed for long-term use, maintainability, and professional workflow.
 2. [Repository Structure](#repository-structure)
 3. [Contents](#contents)
    - [MSSQL](#mssql)
-   - [PostgreSQL](#postgresql)
+   - [MySQL](#mysql)
    - [Templates](#templates)
 4. [Purpose](#purpose)
 5. [Project Style](#project-style)
@@ -24,7 +24,7 @@ Designed for long-term use, maintainability, and professional workflow.
 ## Overview
 
 This repository serves as a centralized location for SQL development work maintained by **salvrezz**.  
-It contains organized scripts for Microsoft SQL Server, PostgreSQL, and can be expanded to support additional SQL platforms.  
+It contains organized scripts for Microsoft SQL Server, MySQL, and can be expanded to support additional SQL platforms.  
 The structure is designed to be clean, consistent, and scalable.
 
 ---
@@ -33,7 +33,7 @@ The structure is designed to be clean, consistent, and scalable.
 
 Repository Structure
 /mssql/       Microsoft SQL Server scripts
-/postgres/    PostgreSQL scripts
+/mysql/       MySQL scripts
 /_templates/  Reusable SQL patterns and starter files
 /docs/        Documentation or branding assets (optional)
 
@@ -47,8 +47,8 @@ Repository Structure
 Located in `/mssql/`  
 Includes schema definitions, stored procedures, views, triggers, and sample data.
 
-### PostgreSQL
-Located in `/postgres/`  
+### MySQL
+Located in `/mysql/`  
 Includes setup scripts, functions, views, triggers, and data manipulation examples.
 
 ### Templates
